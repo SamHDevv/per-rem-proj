@@ -441,7 +441,7 @@ nav ul li {
 /*************************************  TESTIMONIALS  ********************************************/
 
 .testimonials {
-  background-image: url(testimonials-bg.jpg);
+  background-image: url(/src/images/testimonials-bg.jpg);
   background-size: cover;
   background-color: var(--primary-black);
   text-align: center;
