@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
             }
           },
           shape: {
-            type: "square",
+            type: "circle",
             stroke: {
               width: 6,
               color: "#f9ab00"
@@ -43,7 +44,7 @@ function App() {
     <Portfolio />
     <Testimonials />
     <Contacts />
-  
+    <Footer />
     </>
   );
 }
