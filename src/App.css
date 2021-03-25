@@ -60,7 +60,7 @@ nav ul li {
   }
 }
 
-.navbar-nav li a.active, .navbar-nav li a.active:focus {
+.navbar-nav li a.active, .navbar-nav li a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 
 }
@@ -76,7 +76,7 @@ nav ul li {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../src/laptop-wall-code-background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -358,6 +358,11 @@ nav ul li {
   margin: 1rem;
 
 }
+
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 
 /*---------- OVERFLOW BOX -------------*/
 
