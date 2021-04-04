@@ -39,7 +39,7 @@ const Contacts = () => {
         <div id="contacts" className="contacts">
             <div className="text-center">
                 <h1>Contact me</h1>
-                <p>Dolor duis esse culpa Lorem cillum. Aute qui id ullamco non consectetur mollit. Sint ad tempor voluptate in sint ad exercitation. Sunt anim mollit esse occaecat est labore dolor tempor est do pariatur esse occaecat. Cupidatat aliqua dolore cupidatat qui proident. Duis non non cillum ullamco.</p>
+                <p>Feel free to contact me if you feel I can fit in the project you are working on</p>
                 <span className="success-message">{successMessage}</span>
             </div>  
             <div className="container">

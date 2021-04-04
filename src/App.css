@@ -308,6 +308,12 @@ nav ul li {
   font-weight: 900;
 
 }
+.timeline-content h4 {
+  margin-top: 0.3125rem;
+  color: var(--primary-orange);
+  font-weight: 500;
+
+}
 
  /* ------- MEDIA ---------- */
 

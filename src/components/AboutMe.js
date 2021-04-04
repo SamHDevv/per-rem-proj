@@ -13,11 +13,16 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    From very early in my life, I started to fall in love with technology 😍 This love has helped me develop a very good technological mindset and made me curious to learn more.
+                    <br></br><br></br>
+                    My passion for technology led me to browse programming on my own and opt for a Full-Stack web development Bootcamp, gaining knowledge in HTML5, CSS, Javascript, React, Python / Flask, SQL, Git, Github, command line.
+                    <br></br><br></br>
+                    I am curious and restless by nature, I have a wide disposition for teamwork, as well as a facility to learn in a self-taught way; respectful and patient, with availability to dialogue and ability to solve problems.
+                    <br></br><br></br>
+                    I really want to learn and face new professional challenges as a programmer; joining any interesting project that I can help with.
                     </p>
                 </div>
             </div>
-
         </div>
     )
 }
