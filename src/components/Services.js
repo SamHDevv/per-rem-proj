@@ -15,13 +15,17 @@ function Services() {
                                     <FontAwesomeIcon className="icon" icon={faLaptopCode} size="2x"/>
                                 </div>
                                 <h3>Front-End</h3>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap</li>
-                                    <li>Javascript</li>
-                                    <li>React Js</li>
-                                </ul>
+                                
+                                HTML
+                                <br></br>
+                                CSS
+                                <br></br>
+                                Bootstrap
+                                <br></br>
+                                Javascript
+                                <br></br>
+                                React Js
+                                
                             </div>   
                         </div>
                         {/* - */}
@@ -31,11 +35,13 @@ function Services() {
                                     <FontAwesomeIcon className="icon" icon={faCodeBranch} size="2x"/>
                                 </div>
                                 <h3>Version Control</h3>
-                                <ul>
-                                    <li>Command Line</li>
-                                    <li>Git</li>
-                                    <li>GitHub</li>
-                                </ul>
+                                
+                                    Command Line
+                                    <br></br>
+                                    Git
+                                    <br></br>
+                                    GitHub
+                                
                             </div>   
                         </div>
                          {/* - */}
@@ -45,12 +51,15 @@ function Services() {
                                     <FontAwesomeIcon className="icon" icon={faDatabase} size="2x"/>
                                 </div>
                                 <h3>Back-End</h3>
-                                <ul>
-                                    <li>Python</li>
-                                    <li>Flask</li>
-                                    <li>API Rest</li>
-                                    <li>SQL</li>
-                                </ul>
+                                
+                                    Python
+                                    <br></br>
+                                    Flask
+                                    <br></br>
+                                    API Rest
+                                    <br></br>
+                                    SQL
+                                
                             </div>   
                         </div>
                          {/* - */}
@@ -60,13 +69,17 @@ function Services() {
                                     <FontAwesomeIcon className="icon" icon={faPeopleArrows} size="2x"/>
                                 </div>
                                 <h3>Soft Skills</h3>
-                                <ul>
-                                    <li>Learning ability</li>
-                                    <li>Teamwork</li>
-                                    <li>Adaptability</li>
-                                    <li>Problem solving</li>
-                                    <li>Communication Skills</li>
-                                </ul>
+                                
+                                    Learning ability
+                                    <br></br>
+                                    Teamwork
+                                    <br></br>
+                                    Adaptability
+                                    <br></br>
+                                    Problem solving
+                                    <br></br>
+                                    Communication Skills
+                                
                             </div>   
                         </div>
                     </div>
