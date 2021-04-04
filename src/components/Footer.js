@@ -7,6 +7,7 @@ import {
     TelegramIcon,
     TelegramShareButton
 } from "react-share";
+import {Link} from "react-scroll"
 
 const Footer = () => {
     return (
@@ -15,30 +16,30 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>Valencia España 2021</p>
+                            <p>Valencia, Spain</p>
                         </div>
-                        <div className="d-flex">
+                        {/* <div className="d-flex">
                             <a href="tel: 555-555-555"> +34 666 666 666</a>
-                        </div>
-                        <div className="d-flex">
+                        </div> */}
+                        {/* <div className="d-flex">
                             <p>samuelhl@yahoo.com</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a>
+                                <Link smooth={true} to="home" offset={-110 } href="#">Home <span className="sr-only">(current)</span></Link>
                                 <br/>
-                                <a className="footer-nav">About Me</a>
+                                <Link smooth={true} to="about" offset={-110 } href="#">About Me <span className="sr-only">(current)</span></Link>
                                 <br/>
-                                <a className="footer-nav">Services</a>
+                                <Link smooth={true} to="services" offset={-110 } href="#">Skills <span className="sr-only">(current)</span></Link>
                             </div>
                             <div className="col">
-                                <a className="footer-nav">Experience</a>
+                                <Link smooth={true} to="experience" offset={-110 } href="#">Experience <span className="sr-only">(current)</span></Link>
                                 <br/>
-                                <a className="footer-nav">Portfolio</a>
+                                <Link smooth={true} to="portfolio" offset={-110 } href="#">Portfolio <span className="sr-only">(current)</span></Link>
                                 <br/>
-                                <a className="footer-nav">Contacts</a>
+                                <Link smooth={true} to="contacts" offset={-110 } href="#">Contact <span className="sr-only">(current)</span></Link>
                             </div>
                         </div>
                     </div>
