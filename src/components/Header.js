@@ -1,5 +1,6 @@
 import React from "react";
-import Typed from "react-typed"
+import Typed from "react-typed";
+import {Link} from "react-scroll";
 
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
                 strings={
                     ["HTML/CSS", "JavaScript", "Relational Database", "Python", "React", "Git", "HTTP/REST"]
                     }/>
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <Link smooth={true} offset={ -110} className="btn-main-offer" to="contacts">Contact Me</Link>
             </div>
         </div>
     )

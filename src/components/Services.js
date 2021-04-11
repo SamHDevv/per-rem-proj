@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faFacebookF, faGoogle} from "@fortawesome/free-brands-svg-icons" 
-import { faDesktop, faFileCode, faCode, faCodeBranch, faLaptopCode, faDatabase, faPeopleArrows } from "@fortawesome/free-solid-svg-icons";
+// import {} from "@fortawesome/free-brands-svg-icons" 
+import { faCodeBranch, faLaptopCode, faDatabase, faPeopleArrows } from "@fortawesome/free-solid-svg-icons";
 
 function Services() {
     return (
